@@ -1,10 +1,10 @@
 # PyOS
-A Linux-based OS that does just Python. Intended for small devices such as the Raspberry Pi, CHIP, VoCore, and the like.
+A Linux-based OS that does just Python. Intended for small devices such as the Raspberry Pi, CHIP, VoCore, and the like. This should make developing Python for these boards as easy as dropping a .py file onto the SD card, while also providing access to important OS features.
 
 This should make Python development on a Linux-capable SBC or embedded device as easy as using MicroPython, but with full access the all of Python, its libraries, and its debugger.
 
 Key features:
-* Looks for a file `main.py` and/or `boot.py` on startup, and runs those.
+* Looks for a file `main.py` and `boot.py` on startup, and runs those.
 * Everything that the user wants to do should be able to be done via Python.
 * Console access provides an interactive ipython prompt.
 
