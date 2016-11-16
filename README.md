@@ -9,8 +9,9 @@ Key features:
 * Console access provides an interactive ipython prompt.
 
 The following OS operations will need to have translated into Python (or libs found)
-* Network configuration and information
+* Network configuration and information, including wired and wireless
 * Power functionality (sleep, reset, poweroff)
+* Time functionality, including ntp
 * Watchdog
 * SSH configuration - remote debugging will be done via ssh
 * Recurring tasks - this could be an abstraction of cron, or using another task queue such as Celery
@@ -18,6 +19,7 @@ The following OS operations will need to have translated into Python (or libs fo
 Possible inclusions:
 * ipython notebook interface (see Pynq)
 
-# Resources
+## Resources
 * Micropython libraries: https://docs.micropython.org/en/latest/pyboard/library/index.html#micropython-specific-libraries
 * Pynq linux implementation: http://www.pynq.io/home.html
+* Python network configuration: https://github.com/rlisagor/pynetlinux/tree/master/pynetlinux
